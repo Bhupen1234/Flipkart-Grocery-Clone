@@ -1,0 +1,155 @@
+{
+    "products": [
+      {
+        "category": "Staples",
+        "items": [
+          {
+            "name": "Rice",
+            "subcategories": ["Basmati", "Jasmine", "Brown", "Arborio", "Wild"]
+          },
+          {
+            "name": "Pasta",
+            "subcategories": ["Spaghetti", "Penne", "Fettuccine", "Rotini", "Farfalle"]
+          },
+          {
+            "name": "Flour",
+            "subcategories": ["All-Purpose", "Whole Wheat", "Cake", "Bread", "Self-Rising"]
+          },
+          {
+            "name": "Sugar",
+            "subcategories": ["White", "Brown", "Powdered", "Cane", "Demerara"]
+          },
+          {
+            "name": "Salt",
+            "subcategories": ["Sea Salt", "Kosher Salt", "Himalayan Pink Salt", "Garlic Salt", "Fleur de Sel"]
+          }
+        ]
+      },
+      {
+        "category": "Snacks & Beverages",
+        "items": [
+          {
+            "name": "Chips",
+            "subcategories": ["Potato", "Tortilla", "Pita", "Vegetable", "Popcorn"]
+          },
+          {
+            "name": "Soda",
+            "subcategories": ["Cola", "Lemon-Lime", "Orange", "Root Beer", "Ginger Ale"]
+          },
+          {
+            "name": "Cookies",
+            "subcategories": ["Chocolate Chip", "Oatmeal Raisin", "Sugar", "Peanut Butter", "Shortbread"]
+          },
+          {
+            "name": "Juice",
+            "subcategories": ["Orange", "Apple", "Grape", "Cranberry", "Tomato"]
+          },
+          {
+            "name": "Nuts",
+            "subcategories": ["Almonds", "Peanuts", "Cashews", "Walnuts", "Pistachios"]
+          }
+        ]
+      },
+      {
+        "category": "Packaged Food",
+        "items": [
+          {
+            "name": "Canned Soup",
+            "subcategories": ["Chicken Noodle", "Tomato", "Vegetable", "Clam Chowder", "Minestrone"]
+          },
+          {
+            "name": "Instant Noodles",
+            "subcategories": ["Ramen", "Udon", "Soba", "Pad Thai", "Miso"]
+          },
+          {
+            "name": "Frozen Pizza",
+            "subcategories": ["Pepperoni", "Cheese", "Supreme", "Vegetarian", "BBQ Chicken"]
+          },
+          {
+            "name": "Cereal Bars",
+            "subcategories": ["Granola", "Nut", "Fruit", "Chocolate", "Oat"]
+          },
+          {
+            "name": "Canned Vegetables",
+            "subcategories": ["Corn", "Green Beans", "Peas", "Carrots", "Tomatoes"]
+          }
+        ]
+      },
+      {
+        "category": "Personal & Baby Care",
+        "items": [
+          {
+            "name": "Shampoo",
+            "subcategories": ["Moisturizing", "Volumizing", "Anti-Dandruff", "Color Protection", "Clarifying"]
+          },
+          {
+            "name": "Diapers",
+            "subcategories": ["Newborn", "Size 1", "Size 2", "Size 3", "Size 4"]
+          },
+          {
+            "name": "Toothpaste",
+            "subcategories": ["Whitening", "Fluoride", "Sensitive", "Gel", "Natural"]
+          },
+          {
+            "name": "Soap",
+            "subcategories": ["Bar Soap", "Liquid Soap", "Foaming Soap", "Antibacterial", "Exfoliating"]
+          },
+          {
+            "name": "Baby Wipes",
+            "subcategories": ["Sensitive", "Fragrance-Free", "Hypoallergenic", "Flushable", "Aloe Vera"]
+          }
+        ]
+      },
+      {
+        "category": "Household Care",
+        "items": [
+          {
+            "name": "Bleach",
+            "subcategories": ["Regular", "Scented", "Color-Safe", "Concentrated", "Gel"]
+          },
+          {
+            "name": "Laundry Detergent",
+            "subcategories": ["Liquid", "Powder", "Pods", "High Efficiency", "Scented"]
+          },
+          {
+            "name": "All-Purpose Cleaner",
+            "subcategories": ["Spray", "Wipes", "Concentrate", "Natural", "Disinfecting"]
+          },
+          {
+            "name": "Dish Soap",
+            "subcategories": ["Original", "Lemon", "Green Apple", "Antibacterial", "Grapefruit"]
+          },
+          {
+            "name": "Glass Cleaner",
+            "subcategories": ["Spray", "Foam", "Wipes", "Ammonia-Free", "Streak-Free"]
+          }
+        ]
+      },
+      {
+        "category": "Dairy & Eggs",
+        "items": [
+          {
+            "name": "Milk",
+            "subcategories": ["Whole", "Skim", "2%", "Almond", "Soy"]
+          },
+          {
+            "name": "Eggs",
+            "subcategories": ["Large", "Extra Large", "Jumbo", "Organic", "Free Range"]
+          },
+          {
+            "name": "Butter",
+            "subcategories": ["Salted", "Unsalted", "Whipped", "European", "Vegan"]
+          },
+          {
+            "name": "Cheese",
+            "subcategories": ["Cheddar", "Swiss", "Mozzarella", "Parmesan", "Brie"]
+          },
+          {
+            "name": "Yogurt",
+            "subcategories": ["Plain", "Greek", "Flavored", "Low-Fat", "Non-Fat"]
+          }
+        ]
+      }
+    ]
+  }
+  

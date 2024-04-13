@@ -1,0 +1,44 @@
+.toolTip-card{
+
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(216, 213, 213);
+    padding:22px;
+}
+
+.pincode-input{
+    width: 200px;
+    height: 30px;
+   
+    border: 1px solid rgb(216, 213, 213);
+}
+
+
+.pincode-input>input{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.current-location-button{
+    color: #007bff;
+
+    cursor: pointer;
+}
+
+.tooltip-title{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.tooltip-subtitle{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(216, 213, 213);
+}
