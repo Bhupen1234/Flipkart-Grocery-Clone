@@ -1,0 +1,44 @@
+.items-container{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgb(216, 213, 213);
+    border-radius: 2px;
+}
+
+
+.items-container{
+    width: 200px;
+}
+
+.item{
+    padding: 22px;
+
+}
+
+.item:hover{
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.item-subcategory-container{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px 2px rgb(216, 213, 213);
+    border-radius: 2px;
+    width: 200px;
+}
+
+
+.item-subcategory:hover{
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.item-subcategory{
+    padding: 22px;
+}

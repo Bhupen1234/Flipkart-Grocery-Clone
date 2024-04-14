@@ -1,0 +1,9 @@
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     background-color: white;
+     box-shadow: 2px 2px 2px 2px rgb(216, 213, 213) ;
+    padding: 22px;
+
+}

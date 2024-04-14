@@ -2,6 +2,7 @@
     "products": [
       {
         "category": "Staples",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg?q=100",
         "items": [
           {
             "name": "Rice",
@@ -27,6 +28,7 @@
       },
       {
         "category": "Snacks & Beverages",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg?q=100",
         "items": [
           {
             "name": "Chips",
@@ -52,6 +54,7 @@
       },
       {
         "category": "Packaged Food",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/ac8550.jpg?q=100",
         "items": [
           {
             "name": "Canned Soup",
@@ -77,6 +80,7 @@
       },
       {
         "category": "Personal & Baby Care",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg?q=100",
         "items": [
           {
             "name": "Shampoo",
@@ -102,6 +106,7 @@
       },
       {
         "category": "Household Care",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100",
         "items": [
           {
             "name": "Bleach",
@@ -127,6 +132,7 @@
       },
       {
         "category": "Dairy & Eggs",
+        "image":"https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg?q=100",
         "items": [
           {
             "name": "Milk",
@@ -149,7 +155,35 @@
             "subcategories": ["Plain", "Greek", "Flavored", "Low-Fat", "Non-Fat"]
           }
         ]
-      }
+      },
+      
+        {
+            "category": "Home & Kitchen",
+            "image":"https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png?q=100",
+            "items": [
+              {
+                "name": "Cookware Set",
+                "subcategories": ["Non-Stick", "Stainless Steel", "Cast Iron", "Copper", "Aluminum"]
+              },
+              {
+                "name": "Knife Set",
+                "subcategories": ["Chef's Knife", "Paring Knife", "Santoku Knife", "Bread Knife", "Utility Knife"]
+              },
+              {
+                "name": "Coffee Maker",
+                "subcategories": ["Drip", "Espresso", "French Press", "Single Serve", "Pour Over"]
+              },
+              {
+                "name": "Bedding Set",
+                "subcategories": ["Comforter", "Duvet Cover", "Sheet Set", "Bed Skirt", "Pillowcases"]
+              },
+              {
+                "name": "Cooking Utensils",
+                "subcategories": ["Spatula", "Whisk", "Tongs", "Ladle", "Slotted Spoon"]
+              }
+            ]
+          }
+      
     ]
   }
   
