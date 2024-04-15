@@ -7,8 +7,17 @@ import Location from "../../icons/location.png";
 
 // import { Divider } from 'primereact/divider';
 
-const LocationToolTip = () => {
+const LocationToolTip: React.FC = () => {
   const [pincode, setPincode] = useState<string>("");
+  const [isHovered, setIsHovered] = useState<boolean>(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   const handlePincodeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPincode(event.target.value);
@@ -61,6 +70,7 @@ const LocationToolTip = () => {
     }
   };
 
+
   useEffect(() => {
     fetchCurrentLocation();
   }, []);
@@ -73,9 +83,14 @@ const LocationToolTip = () => {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            gap:"7px"
           }}
+
+          onMouseOver={handleMouseEnter}
+          onMouseOut={handleMouseLeave}
         >
-          <h4 className="button">
+          
+          <h4 className="button" style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:"7px"}}>
             {" "}
             <img
               src={Location}
@@ -84,8 +99,9 @@ const LocationToolTip = () => {
               height={22}
               style={{ filter: "invert(100%)" }}
             />{" "}
-            Delivery to Pincode {pincode}{" "}
+            Delivery to {pincode}{" "}
           </h4>
+          <i className={`fa-solid fa-chevron-down ${isHovered ? "fa-rotate-180":""} fa-xs`} style={{color: "#ffffff"}}></i>
         </div>
       )}
       position="bottom center"

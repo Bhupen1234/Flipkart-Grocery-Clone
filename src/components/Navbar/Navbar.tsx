@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import LocationToolTip from "../LocationToolTip/LocationToolTip";
-const Navbar = () => {
+
+import Cart from "../../icons/cart.png"
+import FlipKartIcon from "../../icons/FlikartIcon.png"
+
+
+const Navbar: React.FC = () => {
   
   return (
     <nav className="nav-conatiner">
@@ -21,8 +26,22 @@ const Navbar = () => {
         </div>
         <div className="login">
           <button>Login</button>
+
         </div>
+
+        <div className="cart">
+             <img src={Cart} alt="cart" />
+             <p>Cart</p>
+        </div>
+          
+        
+        
       </div>
+      <div className="flipkart-logo">
+             <img src={FlipKartIcon} alt="Flipkart"  height={"100%"} width={"100%"}/>
+        </div>
+
+     
     </nav>
   );
 };
