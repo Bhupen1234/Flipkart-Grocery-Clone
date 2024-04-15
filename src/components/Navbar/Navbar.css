@@ -4,6 +4,9 @@
     background-color: #26a541 ;
     color: white;
 }
+.logo{
+    cursor: pointer;
+}
 
 
 .empty-class{
